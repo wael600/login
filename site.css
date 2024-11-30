@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    margin:0;
+    padding:0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../3.jpg);
+    background-size: cover;
+}
+section{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    width:420px;
+    border-radius: 20px;
+    border:1px solid rgb(240, 242, 243);
+
+}
+section h1{
+    text-align:center;
+    color:azure;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+section .input_box{
+    width:100%;
+    margin-bottom: 25px;
+
+}
+section .input-box input{
+    width:90%;
+    padding:15px;
+    border-radius: 25px;
+
+}
+section .input-box i{
+    position:relative;
+    right:0px;
+    left:380px;
+    bottom: 40px;
+}
+section .remember-forgot{
+    font-size: 15px;
+
+}
+section .remember-forgot{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+section .remember-forgot a, section .register-link a{
+    color: beige;
+    font-weight: bold;
+    text-decoration:none;
+}
+section .login-btn{
+    width:100%;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 3s;
+    cursor:progress;
+}
+section .register-link{
+    text-align: center;
+    margin-top: 25px;
+    color: antiquewhite;
+    font-size: 15px;
+}
+section .login-btn:hover{
+    background-color: transparent;
+}
